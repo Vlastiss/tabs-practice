@@ -1,1 +1,63 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lemon", serif, sans-serif;
+}
+
+body {
+  padding-top: 100px;
+  background-color: rgb(255, 246, 234);
+}
+body h1,
+body p {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.container {
+  height: 350px;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+.container img {
+  width: 300px;
+  background-position: fixed;
+  background-size: cover;
+  border-radius: 15px;
+}
+.container p {
+  text-align: left;
+}
+
+.collum-border {
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  border-radius: 5px;
+}
+.collum-border h3 {
+  padding: 10px;
+}
+.collum-border p {
+  padding: 0 10px;
+}
+
+.btn-outline-primary {
+  border-radius: 0; /* Set border-radius to 0 for square corners */
+}
+
+/* Optional: If you want to remove the focus outline */
+.btn-outline-primary:focus {
+  box-shadow: none;
+}
+
+.btn-group .btn:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+  color: #333; /* Change text color on hover */
+}/*# sourceMappingURL=style.css.map */
